@@ -1,0 +1,23 @@
+package com.example.setup;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+
+/**
+ * Selenium driver wrapper
+ *
+ * @author mlipski
+ */
+public class SeleniumDriver {
+
+	static WebDriver driver;
+
+	public static WebDriver getDriver() {
+		if (driver == null) {
+			driver = new HtmlUnitDriver();	//can be replaced with HtmlUnitDriver for better performance
+		}
+		return driver;
+	}
+
+}

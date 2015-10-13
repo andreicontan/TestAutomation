@@ -1,0 +1,5 @@
+com/example/pageobjects/GitHubLoginPage.class
+com/example/pageobjects/GitHubPage.class
+com/example/setup/SeleniumDriver.class
+com/example/pageobjects/GitHubHomePage.class
+com/example/test/GitHubLoginTest.class

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bdd-tests.iml" filepath="$PROJECT_DIR$/bdd-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concordion/bdd-tests-concordion.iml" filepath="$PROJECT_DIR$/concordion/bdd-tests-concordion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/bdd-tests-core.iml" filepath="$PROJECT_DIR$/core/bdd-tests-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cucumber/bdd-tests-cucumber.iml" filepath="$PROJECT_DIR$/cucumber/bdd-tests-cucumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easyb/bdd-tests-easyb.iml" filepath="$PROJECT_DIR$/easyb/bdd-tests-easyb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jbehave/bdd-tests-jbehave.iml" filepath="$PROJECT_DIR$/jbehave/bdd-tests-jbehave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdave/bdd-tests-jdave.iml" filepath="$PROJECT_DIR$/jdave/bdd-tests-jdave.iml" />
+    </modules>
+  </component>
+</project>
