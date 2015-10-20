@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.Wait;
 
 public abstract class GitHubPage<T> {
 
-	private static final String BASE_URL = "https://github.com";
+	private static final String BASE_URL = "https://github.com/login";
 	private static final int LOAD_TIMEOUT = 30;
 	private static final int REFRESH_RATE = 2;
 

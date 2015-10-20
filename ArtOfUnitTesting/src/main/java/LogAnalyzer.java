@@ -23,7 +23,7 @@ public class LogAnalyzer {
             {
                 throw new IllegalArgumentException("No filename provided!");
             }
-            if(!fileName.endsWith(".SLF"))
+            if(!fileName.toLowerCase().endsWith(".txt"))
             {
                 //step 2
                 wasLastFileNameValid = false;

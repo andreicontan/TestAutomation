@@ -6,14 +6,11 @@ import static org.fest.assertions.api.Assertions.assertThat;
 import com.example.pageobjects.GitHubHomePage;
 import com.example.pageobjects.GitHubLoginPage;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.Test;
 
 public class GitHubLoginTest {
 
-	@AfterClass
-	public static void tearDown() {
-		getDriver().close();
-	}
 
 	@Test
 	public void should_not_login_with_wrong_credentials() {
@@ -22,6 +19,12 @@ public class GitHubLoginTest {
 		//when
 		loginPage.login("user", "password");
 		//then
-		assertThat(loginPage.isLoginError()).isTrue();
+		Assert.assertTrue(loginPage.isLoginError());
 	}
+
+	@AfterClass
+	public static void tearDown() {
+		getDriver().close();
+	}
+
 }

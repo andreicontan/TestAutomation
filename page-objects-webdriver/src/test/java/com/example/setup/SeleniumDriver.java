@@ -1,8 +1,9 @@
 package com.example.setup;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+
 
 /**
  * Selenium driver wrapper
@@ -15,7 +16,8 @@ public class SeleniumDriver {
 
 	public static WebDriver getDriver() {
 		if (driver == null) {
-			driver = new HtmlUnitDriver();	//can be replaced with HtmlUnitDriver for better performance
+			System.setProperty("webdriver.chrome.driver","/Applications/Google Chrome.app/Contents/MacOS/chromedriver");
+			driver = new ChromeDriver();	//can be replaced with HtmlUnitDriver for better performance
 		}
 		return driver;
 	}
